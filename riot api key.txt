@@ -1,0 +1,9 @@
+
+
+Key:
+    2d631e49-4620-4abb-ae63-500aa087ea4f
+Rate Limit(s):
+
+        50 request(s) every 10 minutes(s)
+        5 request(s) every 10 seconds(s)
+

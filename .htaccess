@@ -1,0 +1,23 @@
+Options +Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^thepccure.co.uk
+RewriteRule (.*) http://www.thepccure.co.uk/$1 [R=301,L] 
+
+redirect 301 http://www.thepccure.co.uk/index.html http://www.thepccure.co.uk/
+redirect 301 http://www.thepccure.co.uk/Services.html http://www.thepccure.co.uk/Services.aspx
+redirect 301 http://www.thepccure.co.uk/clients.html http://www.thepccure.co.uk/clients.aspx
+redirect 301 http://www.thepccure.co.uk/testimonials.html http://www.thepccure.co.uk/testimonials.aspx
+redirect 301 http://www.thepccure.co.uk/contactus.html http://www.thepccure.co.uk/contactus.aspx
+redirect 301 http://www.thepccure.co.uk/callout.html http://www.thepccure.co.uk/callout.aspx
+redirect 301 http://www.thepccure.co.uk/networkSetup.html http://www.thepccure.co.uk/networkSetup.aspx
+redirect 301 http://www.thepccure.co.uk/Virus.html http://www.thepccure.co.uk/Virus.aspx
+redirect 301 http://www.thepccure.co.uk/Virus.html http://www.thepccure.co.uk/Virus.aspx
+redirect 301 http://www.thepccure.co.uk/repair.html http://www.thepccure.co.uk/repair.aspx
+redirect 301 http://www.thepccure.co.uk/upgrade.html http://www.thepccure.co.uk/upgrade.aspx
+redirect 301 http://www.thepccure.co.uk/B2SpecComputer.html http://www.thepccure.co.uk/B2SpecComputer.aspx
+redirect 301 http://www.thepccure.co.uk/WebDesign.html http://www.thepccure.co.uk/WebDesign.aspx
+redirect 301 http://www.thepccure.co.uk/Software.html http://www.thepccure.co.uk/Software.aspx
+redirect 301 http://www.thepccure.co.uk/data.html http://www.thepccure.co.uk/data.aspx
+redirect 301 http://www.thepccure.co.uk/TuneUp.html http://www.thepccure.co.uk/TuneUp.aspx
+redirect 301 http://www.thepccure.co.uk/SearchEngineOptimisation.html http://www.thepccure.co.uk/SearchEngineOptimisation.aspx
