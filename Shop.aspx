@@ -12,5 +12,5 @@
 </asp:Content>
 
 <asp:Content ID="Cntent2" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
-asdasds
+Shop is development
 </asp:Content>
