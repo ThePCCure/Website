@@ -1,0 +1,93 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>The PC Cure - Computer Repair, Laptop Repair, Computer Upgrade</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link charset="utf-8" type="text/css" href="CSS/menu.css" rel="stylesheet" />
+    <link charset="utf-8" type="text/css" href="CSS/banner.css" rel="stylesheet" />
+    <link charset="utf-8" type="text/css" href="CSS/ColorBlocks.css" rel="stylesheet" />
+    <link charset="utf-8" type="text/css" href="CSS/page.css" rel="stylesheet" />
+    <script type="text/javascript" src="script/analytics.js"></script>
+    <script>
+        <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{your-app-id}',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    </script>
+    <meta name="google-site-verification" content="0GtwuGmw4kUcuypldKU5k5mgAP2kajLUpSqUlCYGDeM" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div id="Div1"></div>
+<script>    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=115908561819625&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script>
+
+    <form id="masterForm" runat="server">
+        <div id="content">
+            <asp:ContentPlaceHolder id="Contentborder" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="contentBorder">
+                <div id="banner nopaddingOrMargins">
+                    <a href="home.aspx">
+                        <img id="Logo" class="nopaddingOrMargins" alt="The PC Cure Totton" src="Images/Logo.png" />
+                    </a>
+                </div>
+                
+                <div id="menuHolder">
+                <img id="menuTassleLeft" alt="Computer Repair" src="Images/leftendMenu.png" />
+                <img id="menuTassleRight" alt="Computer Repair" src="Images/rightendMenu.png" />
+                    <ul class="menuBar">
+                        <li class="StarterMenuItem"><a href="home.aspx">Home</a></li>
+                        <li class="menuItem"><a href="HowWeCanHelp.aspx">Services</a></li>
+                        <li class="menuItem"><a href="clients.aspx">Clients</a></li>
+                        <li class="menuItem"><a href="testimonials.aspx">Testimonials</a></li>
+                        <li class="menuItem"><a href="shop.aspx">Shop</a></li>
+                        <li class="menuItem"><a href="contactus.aspx">Contact-us</a></li>
+                    </ul>
+                    
+                </div>
+                    <asp:ContentPlaceHolder id="MasterContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                <div id="footerBlock">                
+                    The PC Cure, <br />
+                    Calmore, <br />
+                    Totton, <br />
+                    Southampton
+                    <div id="facebook">
+                    <div class="fb-like" data-href="https://www.facebook.com/pages/The-PC-Cure/199032400115957" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </div>
+                    <div id="contact">
+                        Phone: 023 80 863918
+                        <br />
+                        077 66 531728
+                        <br />
+                        <a href="mailto:shanecox@thepccure.co.uk">Email: shanecox@thepccure.co.uk</a>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </form>
+</body>
+</html>

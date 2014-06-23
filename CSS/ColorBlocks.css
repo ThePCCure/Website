@@ -1,0 +1,67 @@
+.GreenColorBlock {
+    background: url(../Images/greenBlock.jpg) center;
+}
+
+.YellowColorBlock {
+    background: url(../Images/yellowBlock.jpg) center;
+}
+
+.BlueColorBlock {
+    background: url(../Images/blueBlock.jpg) center;
+}
+
+.RedColorBlock {
+    background: url(../Images/redBlock.jpg) center;
+}
+
+.ColorBlocks {
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    
+}
+
+.colorBlock, .colorBlockNoPICS {
+    position: relative;
+    width: 22%;
+    padding: 1% 0.5% 1% 0.5%;
+    text-align: center;
+    vertical-align: text-top;
+    float: left;
+    border:1px solid black;
+    margin-left:1%;
+}
+
+.colorBlock {
+    height: 210px;
+}
+
+.colorBlockNoPICS {
+    height: 100px;
+}
+
+.colorBlock img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    
+}
+
+#footerBlock {
+    position: relative;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.flashEffect {
+    text-decoration: blink;
+    text-decoration: underline;
+    font-weight: bolder;
+}
