@@ -10,7 +10,9 @@
     <link charset="utf-8" type="text/css" href="CSS/banner.css" rel="stylesheet" />
     <link charset="utf-8" type="text/css" href="CSS/ColorBlocks.css" rel="stylesheet" />
     <link charset="utf-8" type="text/css" href="CSS/page.css" rel="stylesheet" />
-    <script type="text/javascript" src="script/analytics.js"></script>
+    <script type="text/javascript" src="script/jquery.js"></script>    
+    <script type="text/javascript" src="script/analytics.js"></script>    
+    <script type="text/javascript"  src="script/screensize.js"></script>
     <script>
         <script>
       window.fbAsyncInit = function() {
@@ -31,6 +33,7 @@
     </script>
     </script>
     <meta name="google-site-verification" content="0GtwuGmw4kUcuypldKU5k5mgAP2kajLUpSqUlCYGDeM" />
+
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

@@ -1,16 +1,18 @@
 ﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Home.aspx.vb" Inherits="Home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    
+    <script type="text/javascript" > pagesizeinit(); </script>
+
 </asp:Content>
 <asp:Content ID="MasterContent" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
 
 
-<div class="FloatingBlockRight ">
-<div class="fb-like-box" data-href="https://www.facebook.com/pages/The-PC-Cure/199032400115957?ref=hl" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true">
-</div>
+<div id="fb" class="FloatingBlockRight ">
+    <div class="fb-like-box" data-href="https://www.facebook.com/pages/The-PC-Cure/199032400115957?ref=hl" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 </div>
 
-
+<div id="screenwidth"></div>
 <div class="ColorBlocks">
     <div class="GreenColorBlock colorBlock">
         <p class="Header" style="color: #FFF;">
