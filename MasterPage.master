@@ -37,7 +37,7 @@
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body onload="resizepages()">
 <div id="Div1"></div>
 <script>    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

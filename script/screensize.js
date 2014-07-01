@@ -12,6 +12,8 @@ function pagesizeinit() {
 function resizepages() {
     if ($(window).width() < 1200) {
         $("#fb").css("display", "none");
+        $("#content").css("width", "900");
+        $("#content").css("margin-left", "0");
     }
     else if ($(window).width() < 1320) {
         $("#content").css("width", "900");
