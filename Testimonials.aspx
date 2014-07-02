@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
 
-<div class="fb-comments" data-href="https://www.facebook.com/pages/The-PC-Cure/199032400115957?sk=reviews" data-width="100%" data-numposts="100" data-colorscheme="light"></div>
+
 				<div class="fullBlock">
 					<p class="Header">A+ Solar - Southampton April 2011</p>
 					<p>Search engine optimisation</p>  
