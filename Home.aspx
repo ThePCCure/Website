@@ -2,7 +2,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     
-    <script type="text/javascript" > pagesizeinit(); </script>
+            <script type="text/javascript">
+                function init() {
+                    pagesizeinit()
+                }
+                </script>
 
 </asp:Content>
 <asp:Content ID="MasterContent" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
