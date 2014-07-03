@@ -1,18 +1,21 @@
 ﻿/// <reference path="jquery.js" />
 
 function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
-    //$("#" + targetID).text("TEWATWARAWEWAT")    
+    var feedback = "";
     "use strict";
     $.ajax({
         url: xmllocation, dataType: "xml", success:
                 function (data) {
                     $(data).find(parentNodeName).each(function () {
-                        var num =""
+                        var num = "<" + htmltag + " class =" + "'" + parentNodeName + "'" + ">"
                         $(this).children().each(function () {
-                            num += "<" + htmltag + ">" + $(this).html() + "</" + htmltag + ">";
-                            $("#" + targetID).html(num);
-                        });                        
-                    });                    
+                            num += "<" + htmltag + " class=" + "'" + $(this).context.tagName + "'" + ">" + $(this).html() + "</" + htmltag + ">";
+                        });
+                        num += "</" + htmltag + ">";
+                        feedback += num
+                        $("#" + targetID).html(feedback);
+                    });
                 }
     });
 }
+

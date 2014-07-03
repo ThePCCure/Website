@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="Feedback">
+  <xsd:element name="Testimonials">
     <xsd:complexType>
-      <xsd:sequence >
-        <xsd:element name="name" type="xsd:string" />
-        <xsd:element name="date" type="xsd:date" />
-        <xsd:element name="worktype" type="xsd:string" minOccurs="0"  />
-        <xsd:element name="message" type="xsd:string" />
-      </xsd:sequence>
+      <xsd:element name="Feedback">
+        <xsd:complexType>
+          <xsd:sequence >
+            <xsd:element name="name" type="xsd:string" />
+            <xsd:element name="date" type="xsd:date" />
+            <xsd:element name="worktype" type="xsd:string" minOccurs="0"  />
+            <xsd:element name="message" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
     </xsd:complexType>
   </xsd:element>
 </xsd:schema>

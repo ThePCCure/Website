@@ -3,7 +3,7 @@ body {
     background-color: white;
     font-size: large;
     background-image: url(../Images/bggradient.png);
-    background-repeat:repeat-x;
+    background-repeat: repeat-x;
 }
 
 #content {
@@ -19,78 +19,82 @@ body {
     margin-bottom: 60px;
 }
 
-#content #contentBorder {
-    background-color: #ffffff;
-    width: 99%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    #content #contentBorder {
+        background-color: #ffffff;
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-/* ------------------------------------------------------------------------
+        /* ------------------------------------------------------------------------
  *			 					FULL BLOCK
  ------------------------------------------------------------------------ */
-#content #contentBorder .fullBlock {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    padding: 5px 5px 25px 5px;
-    background-color: inherit;
-    text-align: justify;
-}
+        #content #contentBorder .fullBlock, .Feedback {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            padding: 5px 5px 25px 5px;
+            background-color: inherit;
+            text-align: justify;
+        }
 
-#content #contentBorder .fullBlock img {
-    width: 15%;
-}
+            #content #contentBorder .fullBlock img {
+                width: 15%;
+            }
 
-/* --------------------------------------------------------------------- *
+            /* --------------------------------------------------------------------- *
  *			 					HALF BLOCKS								 *
  * --------------------------------------------------------------------- */
-#content #contentBorder .fullblock .halfBlockLeft, #content #contentBorder .fullblock .halfBlockRight {
-    width: 45%;
-    background-color: white;
-    text-align: left;
-    margin-bottom: 50px;
-    margin-top: 5px;
-}
+            #content #contentBorder .fullblock .halfBlockLeft, #content #contentBorder .fullblock .halfBlockRight {
+                width: 45%;
+                background-color: white;
+                text-align: left;
+                margin-bottom: 50px;
+                margin-top: 5px;
+            }
 
-#content #contentBorder .fullblock .halfBlockLeft {
-    margin-left: 4%;
-    float: left;
-}
+            #content #contentBorder .fullblock .halfBlockLeft {
+                margin-left: 4%;
+                float: left;
+            }
 
-#content #contentBorder .fullblock .halfBlockRight {
-    margin-right: 4%;
-    float: right;
-}
+            #content #contentBorder .fullblock .halfBlockRight {
+                margin-right: 4%;
+                float: right;
+            }
 
-#content #contentBorder .fullblock .halfBlockRight img {
-    width: 100%;
-}
+                #content #contentBorder .fullblock .halfBlockRight img {
+                    width: 100%;
+                }
 /* ------------------------------------------------------------------------
- *			 					Floating Block
+ *			 					Floating Blocks
  ------------------------------------------------------------------------ */
- #fb{
-     display:block;
- }
+#fb {
+    display: block;
+}
 
- .FloatingBlockRight{
-    position:fixed;
-    right:0;
-    top :0;
-    background-color:White;
-    z-index:1;
+.FloatingBlockRight {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: White;
+    z-index: 1;
+}
+
+.name, .location {
+    float: left;
+    margin-right: 10px;
 }
 
 /* ------------------------------------------------------------------------
  *			 					Titles
  ------------------------------------------------------------------------ */
-.Header {
+.Header, .name, .location, .date {
     font-size: x-large;
     font-weight: bolder;
     text-shadow: 1px 0 3px #3399FF;
     margin-top: 0;
     margin-bottom: 10px;
-	
 }
 
 .center {
@@ -111,9 +115,9 @@ body {
     background-color: transparent;
 }
 
-#facebook iframe {
-    background-color: transparent;
-}
+    #facebook iframe {
+        background-color: transparent;
+    }
 
 #contact {
     position: absolute;
@@ -123,10 +127,10 @@ body {
     bottom: 3px;
 }
 
-#contact a {
-    text-decoration: none;
-    color: inherit;
-}
+    #contact a {
+        text-decoration: none;
+        color: inherit;
+    }
 
 /* ------------------------------------------------------------------------
  *			 					MISC
@@ -146,9 +150,17 @@ body {
     display: inline;
 }
 
-.smallprint{
-	font-size:small;
-	text-align:center;
+.smallprint {
+    font-size: small;
+    text-align: center;
 }
 
-
+/* ------------------------------------------------------------------------
+ *			 					Review
+ ------------------------------------------------------------------------ */
+#SubmitReview {
+    float:right;
+    border: 1px solid black;
+    margin-right:20px;
+    padding:5px;
+}
