@@ -2,14 +2,15 @@
 //screen.width 
 
 function pagesizeinit() {
+    resizepages()
     $(window).resize(function () {
-        //$("#screenwidth").text($(window).width());
         resizepages()
     })
 }
 
 
 function resizepages() {
+
     if ($(window).width() < 1200) {
         $("#fb").css("display", "none");
         $("#content").css("width", "900");

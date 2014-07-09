@@ -2,6 +2,12 @@
 
 <asp:Content ID="ServicesContent" ContentPlaceHolderID="head" Runat="Server">
 <link charset="utf-8" type="text/css" href="CSS/pricing.css" rel="stylesheet" />
+    <script  type="text/javascript" >
+        function init() {
+            pagesizeinit()
+        }
+
+    </script>
 </asp:Content>
 
 

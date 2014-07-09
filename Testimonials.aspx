@@ -9,15 +9,12 @@
         function init() {
             pagesizeinit()
             getTestimonials()
-            initButton()
         }
     </script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MasterContentPlaceHolder" runat="Server">
-    <a id="SubmitReview" href="leaveTestimonial.aspx">Submit your review</a>
-    <p id="ii"></p>
-    
+    <a id="SubmitReview" href="leaveTestimonial.aspx">Submit your review</a>       
     <div class="fullBlock">
         <p class="Header">A+ Solar - Southampton April 2011</p>
         <p>Search engine optimisation</p>
