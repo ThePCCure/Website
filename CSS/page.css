@@ -155,12 +155,3 @@ body {
     text-align: center;
 }
 
-/* ------------------------------------------------------------------------
- *			 					Review
- ------------------------------------------------------------------------ */
-#SubmitReview {
-    float:right;
-    border: 1px solid black;
-    margin-right:20px;
-    padding:5px;
-}

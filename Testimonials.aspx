@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Testimonials.aspx.vb" Inherits="Testimonials" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link href="CSS/testimonial.css" rel="stylesheet" />
     <script type="text/javascript" src="script/xml.js"> </script>
     <script type="text/javascript" src="script/testimonial.js"></script>
 
@@ -14,7 +15,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MasterContentPlaceHolder" runat="Server">
-    <div id="SubmitReview">Submit Review</div>
+    <a id="SubmitReview" href="leaveTestimonial.aspx">Submit your review</a>
     <p id="ii"></p>
     
     <div class="fullBlock">

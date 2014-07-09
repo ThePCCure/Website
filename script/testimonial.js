@@ -5,7 +5,5 @@ function getTestimonials() {
 }
 
 function initButton() {    
-    $("#SubmitReview").click(function () {
-        alert("asdasdsdad");
-    });
+
 }

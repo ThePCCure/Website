@@ -1,0 +1,42 @@
+﻿/* ------------------------------------------------------------------------
+ *			 					Review
+ ------------------------------------------------------------------------ */
+#SubmitReview {
+    float: right;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #47B5F0;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+    #SubmitReview:hover {
+        cursor: pointer;
+        text-shadow: 2px 2px 2px #762550;
+    }
+
+
+#testimonal_Form {
+
+}
+
+.input {
+    background-color: #e7f6f5;
+    border:1px solid #cddae8;
+    margin:10px;
+}
+
+
+.label{
+    display:inline-block;;
+    width:100px;
+
+}
+
+.multiline{
+    height:50px;
+}
