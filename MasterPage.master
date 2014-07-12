@@ -39,7 +39,8 @@
 </head>
 <body onload="init()">
     <div id="Div1"></div>
-    <script>    (function (d, s, id) {
+    <script type="text/javascript">
+        (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
@@ -53,7 +54,7 @@
             </asp:ContentPlaceHolder>
             <div id="contentBorder">
                 <div id="banner nopaddingOrMargins">
-                    <a href="home.aspx">
+                    <a href="Home.aspx">
                         <img id="Logo" class="nopaddingOrMargins" alt="The PC Cure Totton" src="Images/Logo.png" />
                     </a>
                 </div>
@@ -62,12 +63,12 @@
                     <img id="menuTassleLeft" alt="Computer Repair" src="Images/leftendMenu.png" />
                     <img id="menuTassleRight" alt="Computer Repair" src="Images/rightendMenu.png" />
                     <ul class="menuBar">
-                        <li class="StarterMenuItem"><a href="home.aspx">Home</a></li>
+                        <li class="StarterMenuItem"><a href="Home.aspx">Home</a></li>
                         <li class="menuItem"><a href="HowWeCanHelp.aspx">Services</a></li>
-                        <li class="menuItem"><a href="clients.aspx">Clients</a></li>
-                        <li class="menuItem"><a href="testimonials.aspx">Reviews</a></li>
-                        <li class="menuItem"><a href="shop.aspx">Shop</a></li>
-                        <li class="menuItem"><a href="contactus.aspx">Contact-us</a></li>
+                        <li class="menuItem"><a href="Clients.aspx">Clients</a></li>
+                        <li class="menuItem"><a href="Testimonials.aspx">Reviews</a></li>
+                        <li class="menuItem"><a href="Shop.aspx">Shop</a></li>
+                        <li class="menuItem"><a href="ContactUs.aspx">Contact-us</a></li>
                     </ul>
 
                 </div>

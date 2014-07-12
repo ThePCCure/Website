@@ -21,22 +21,22 @@
 
 
 #testimonal_Form {
-
 }
 
 .input {
     background-color: #e7f6f5;
-    border:1px solid #cddae8;
-    margin:10px;
+    border: 1px solid #5aa7fa;
+    margin: 10px;
+    resize: none;
 }
 
 
-.label{
-    display:inline-block;;
-    width:100px;
-
+.label {
+    display: inline-block;
+    width: 100px;
+    vertical-align:top;
 }
 
-.multiline{
-    height:50px;
+.multiline {
+    width:60%;
 }

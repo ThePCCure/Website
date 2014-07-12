@@ -19,3 +19,6 @@ function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
     });
 }
 
+function addNewNode(parentNodeName, xmllocation, xmlNode) {
+
+}
