@@ -38,7 +38,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body onload="init()">
-    <div id="Div1"></div>
+    
     <script type="text/javascript">
         (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

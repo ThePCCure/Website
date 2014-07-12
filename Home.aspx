@@ -1,13 +1,29 @@
 ﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Home.aspx.vb" Inherits="Home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    
+
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css"/>
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css"/>
+     
+    <!-- jQuery 1.7+ -->
+    <!--script src="jquery-1.9.1.min.js"></!--script-->
+     
+    <!-- Include js plugin -->
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+
+     
+    <!-- Include js plugin -->
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>    
             <script type="text/javascript">
                 function init() {
                     pagesizeinit()
+                    $("#owl-example").owlCarousel({ autoPlay: true });                    
                 }
-                </script>
 
+                </script>
 </asp:Content>
 <asp:Content ID="MasterContent" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
 
@@ -16,38 +32,55 @@
     <div class="fb-like-box" data-href="https://www.facebook.com/pages/The-PC-Cure/199032400115957?ref=hl" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 </div>
 
-<div id="screenwidth"></div>
-<div class="ColorBlocks">
-    <div class="GreenColorBlock colorBlock">
-        <p class="Header" style="color: #FFF;">
-            Special Offer</p>
-        One Year <span class="flashEffect">FREE</span> hosting on all new website builds.
-        <img alt="website design totton" src="Images/dreamstime_5137414.png" />
+<div id="owl-example" class="">
+    <div class="item orange">
+        <p class="Header">Special Offer</p>
+        One Year FREE hosting on all new website builds.
     </div>
-    <div class="YellowColorBlock colorBlock">
-        <p class="Header" style="color: #FFF;">
-            We Buy</p>
+    <div class="item dodgerBlue">
+        <p class="Header" ">We Buy</p>
             Bought a new computer? <br />
             The PC Cure will buy your old one.
-            <img alt="Computer Repair totton" src="Images/buy.png" />
         <br/>
     </div>
-    <div class="BlueColorBlock colorBlock">
-        <p class="Header" style="color: #FFF;">
-            Special Offer</p>
-        £5 Discount on all labour if you have liked our Facebook page.
-        <img alt="Computer Repair totton" src="Images/sale.png"/>
+    <div class="item darkCyan">
+        <p class="Header">Special Offer</p>
+        £5 Discount on all labour for new customers if you have liked our Facebook page.
     </div>
-    <div class="RedColorBlock colorBlock">
-        <p class="Header" style="color: #FFF;">
-            Computers for sale</p>
+    <div class="item forestGreen">
+        <p class="Header">Buy new PC</p>
         New and refurbished Computers available, call for stock details.
-        <img alt="Shop totton" src="Images/shoping_basket.png" />
     </div>
+
+    <div class="item violet">
+        <p class="Header">£10 for referrals</p>
+        Refer us to your friends and earn £10.
+    </div>
+
+        <div class="item orange">
+        <p class="Header">We Host</p>
+        Transfer your website to us for great deals on your hosting.        
+    </div>
+
+    <div class="item dodgerBlue">
+        <p class="Header">Broken Laptop Screen</p>
+        We have carried out hundreds of laptop screen repairs.
+    </div>
+
+    <div class="item darkCyan">
+        <p class="Header">Deliver and install</p>
+        We deliver install and recycle when it suits you.        
+    </div>
+
+    <div class="item forestGreen">
+        <p class="Header">System Slow?</p>
+        We can diagnose and resolve it for you.        
+    </div>
+
 </div>  
 
 
-<div class="fullblock">
+<div class="fullBlock">
 
 
         <h3 class="Header center">

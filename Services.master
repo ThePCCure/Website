@@ -17,7 +17,7 @@
 <asp:Content ID="ServicesContent2" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
 
 
-    <div class="ColorBlocks">
+    <!--div class="ColorBlocks">
         <div class="GreenColorBlock colorBlockNoPICS">
 	        <p class="Header" style="color: #FFF;">Special Offer</p>
 		        One Year <span class="flashEffect">FREE</span> hosting on all new website builds.
@@ -34,7 +34,7 @@
 	        <p class="Header" style="color: #FFF;">Promise</p>
 	        Friendly professional expert help					
         </div>
-    </div>	
+    </!--div-->	
 
 <div class="fullBlock">
 

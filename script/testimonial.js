@@ -18,7 +18,7 @@ function sumbitNewReview() {
             var worktype = document.createElement('worktype') = $("#txt_worktype").val();
             var message = document.createElement('message') = $("#txt_feedback").val();
 
-            alert("getting tehre");
+            $("testimonials.xml").find("Feedback").append("TIT");
             //$(data).find("Testimmonials").append()
         }
     });
