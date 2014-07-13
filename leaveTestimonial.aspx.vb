@@ -10,7 +10,8 @@ Partial Class leaveTestimonial
     End Sub
     Protected Sub SubmitReview_Click(sender As Object, e As EventArgs) Handles SubmitReview.Click
         Dim myXmlDocument As New XmlDocument()
-        Dim xmlDocLocation As String = "F:\Users\Shane\Code\WebVersionControl\testimonials.xml"
+        'Dim xmlDocLocation As String = "F:\Users\Shane\Code\WebVersionControl\testimonials.xml"
+        Dim xmlDocLocation As String = Server.MapPath("~/testimonials.xml")
         myXmlDocument.Load(xmlDocLocation)
         addNode("Feedback", Nothing, Nothing, myXmlDocument)
         addNode("message", txt_message.Value, "Feedback", myXmlDocument)

@@ -1,3 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Testimmonials>
+  <Feedback>
+    <name>John</name>
+    <location>West Totton</location>
+    <date>13/07/2014</date>
+    <worktype>Viruses</worktype>
+    <message> PC was running really slow, was told that it had viruses.
+
+Was so pleased that it was fixed fast as needed for work
+
+Would recomend 
+John</message>
+  </Feedback>
 </Testimmonials>

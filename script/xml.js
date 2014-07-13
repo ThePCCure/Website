@@ -1,10 +1,11 @@
 ﻿/// <reference path="jquery.js" />
 
 function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
+    var serverlocation = "/";
     var feedback = "";
     "use strict";
     $.ajax({
-        url: xmllocation, dataType: "xml", success:
+        url: serverlocation + xmllocation, dataType: "xml", success:
                 function (data) {
                     $(data).find(parentNodeName).each(function () {
                         var num = "<" + htmltag + " class =" + "'" + parentNodeName + "'" + ">"
@@ -17,10 +18,6 @@ function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
                     });
                 }
     });
-}
-
-function addNewNode(parentNodeName, xmllocation, xmlNode) {
-
 }
 
 function nl2br(str, is_xhtml) {
