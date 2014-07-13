@@ -22,6 +22,13 @@
         <div><span class="label">Work Type</span> <span>        <input      runat="server" class="input"            id="txt_worktype"   type="text" /></span></div>
         <div><span class="label">Feedback</span> <span>         <textarea   runat="server" class="input multiline"  id="txt_message" rows="9" cols="100"> </textarea>
         </span></div>
+
+        <asp:RequiredFieldValidator ControlToValidate="txt_name" Text="Please enter a name<br/>" runat="server" ToolTip="Please enter a name"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ControlToValidate="txt_location" Text="Please enter your location<br/>" runat="server" ToolTip="Please enter your location"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ControlToValidate="txt_worktype" Text="What type of work was carried out <br/>" runat="server" ToolTip="What type of work was carried out?"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ControlToValidate="txt_message" Text="What feed back would you like to leave" runat="server" ToolTip="What feed back would you like to leave"></asp:RequiredFieldValidator>
+        
+
     </div>
 </asp:Content>
 

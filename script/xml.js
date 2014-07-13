@@ -13,7 +13,7 @@ function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
                         });
                         num += "</" + htmltag + ">";
                         feedback += num
-                        $("#" + targetID).html(feedback);
+                        $("#" + targetID).html(nl2br(feedback,false));
                     });
                 }
     });
@@ -21,4 +21,9 @@ function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
 
 function addNewNode(parentNodeName, xmllocation, xmlNode) {
 
+}
+
+function nl2br(str, is_xhtml) {
+    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
 }
