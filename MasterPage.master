@@ -67,7 +67,7 @@
                         <li class="menuItem"><a href="HowWeCanHelp.aspx">Services</a></li>
                         <li class="menuItem"><a href="Clients.aspx">Clients</a></li>
                         <li class="menuItem"><a href="Testimonials.aspx">Reviews</a></li>
-                        <li class="menuItem"><a href="Shop.aspx">Shop</a></li>
+                        <!--li class="menuItem"><a href="Shop.aspx">Shop</a></li-->
                         <li class="menuItem"><a href="ContactUs.aspx">Contact-us</a></li>
                     </ul>
 
