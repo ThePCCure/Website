@@ -10,7 +10,9 @@ function loadxmlintohtmlid(xmllocation, parentNodeName, targetID, htmltag) {
                     $(data).find(parentNodeName).each(function () {
                         var num = "<" + htmltag + " class =" + "'" + parentNodeName + "'" + ">"
                         $(this).children().each(function () {
-                            num += "<" + htmltag + " class=" + "'" + $(this).context.tagName + "'" + ">" + $(this).html() + "</" + htmltag + ">";
+                            num += "<" + htmltag + " class=" + "'" + $(this).context.tagName + "'" + ">" + $(this).context.childNodes[0].data + "</" + htmltag + ">";
+                            //$(this).context.childNodes[0].data
+                            //$(this).html() 
                         });
                         num += "</" + htmltag + ">";
                         feedback += num

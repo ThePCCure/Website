@@ -13,7 +13,6 @@ Public Class db
         Dim objCmd As New SqlCommand(sSQL, objConn)
         objCmd.ExecuteNonQuery()
     End Sub
-
 End Class
 
 

@@ -78,7 +78,7 @@
 	background: url(AjaxLoader.gif) no-repeat center center
 }
 
-#owl-example .item {
+#owl-example .item, #owl-example1 .item {
     border-radius: 3px;
     color: #fff;
     margin: 7px;
@@ -88,7 +88,7 @@
     height: 150px;
 
 }
-#owl-example .item img {
+#owl-example .item img , #owl-example1 .item img{
     display: block;
     margin: 0 auto;
     width: auto;

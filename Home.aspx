@@ -24,6 +24,9 @@
                 }
 
                 </script>
+
+
+    <meta name="alexaVerifyID" content="Qa-hVtlHb4TyEOHrETfcFWFLhK0"/> 
 </asp:Content>
 <asp:Content ID="MasterContent" ContentPlaceHolderID="MasterContentPlaceHolder" Runat="Server">
 
@@ -63,8 +66,10 @@
     </div>
 
     <div class="item dodgerBlue">
+        <a href="repair-laptop-screen.aspx">
         <p class="Header">Broken Laptop Screen</p>
         We have carried out hundreds of laptop screen repairs.
+            </a>
     </div>
 
     <div class="item darkCyan">
@@ -75,6 +80,11 @@
     <div class="item forestGreen">
         <p class="Header">System Slow?</p>
         We can diagnose and resolve it for you.        
+    </div>
+
+    <div class="item violet"><a href="Totton-College.aspx">
+        <p class="Header">Student Discounts</p>
+        20% discount for students.</a>
     </div>
 
 </div>  
@@ -105,14 +115,11 @@
             If it involves a computer or laptop we can do it!
             </p>
         <p style="text-align:center;">
-            <b><a href="ContactUs.aspx">Call</a> The PC Cure now.</b>
+            <b><a class= "hyperlink"href="ContactUs.aspx">Call</a> The PC Cure now.</b>
             </p>
 
 
 
 </div>
-
-
-
 </asp:Content>
 

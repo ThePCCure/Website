@@ -5,6 +5,14 @@ body {
     background-image: url(../Images/bggradient.png);
     background-repeat: repeat-x;
 }
+a  {outline : none; text-decoration:none;color:inherit;}
+a img {outline : none;}
+
+.hyperlink{
+    text-shadow:1px 1px 1px #3399FF;
+    color:#0026ff;
+    
+}
 
 #content {
     position: relative;
@@ -36,6 +44,7 @@ body {
             padding: 5px 5px 25px 5px;
             background-color: inherit;
             text-align: justify;
+            position:relative;
         }
 
             #content #contentBorder .fullBlock img {

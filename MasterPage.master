@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    
     <!-- Need to make sure that jquery loads firts -->
     <script type="text/javascript" src="script/jquery.js"></script>
 
@@ -59,6 +60,7 @@
                     </a>
                 </div>
 
+                <div class="fullblock">
                 <div id="menuHolder">
                     <img id="menuTassleLeft" alt="Computer Repair" src="Images/leftendMenu.png" />
                     <img id="menuTassleRight" alt="Computer Repair" src="Images/rightendMenu.png" />
@@ -72,6 +74,7 @@
                     </ul>
 
                 </div>
+                    </div>
                 <asp:ContentPlaceHolder ID="MasterContentPlaceHolder" runat="server">
                 </asp:ContentPlaceHolder>
                 <div id="footerBlock">

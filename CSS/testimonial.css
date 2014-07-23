@@ -2,7 +2,8 @@
  *			 					Review
  ------------------------------------------------------------------------ */
 #SubmitReview ,#MasterContentPlaceHolder_SubmitReview, #ctl00_MasterContentPlaceHolder_SubmitReview{
-    float: right;
+    position:absolute;
+    right:0;
     border: 1px solid black;
     margin-right: 20px;
     padding: 5px;
@@ -11,6 +12,8 @@
     font-size: 30px;
     text-decoration: none;
     text-shadow: 2px 2px 2px #000;
+    z-index:2;
+    
 }
 
 
@@ -39,4 +42,9 @@
 
 .multiline {
     width:60%;
+}
+
+#contentBorder .testimonials .feedback {
+    z-index:-1;
+    position:relative;
 }

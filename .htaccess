@@ -21,3 +21,6 @@ redirect 301 http://www.thepccure.co.uk/Software.html http://www.thepccure.co.uk
 redirect 301 http://www.thepccure.co.uk/data.html http://www.thepccure.co.uk/data.aspx
 redirect 301 http://www.thepccure.co.uk/TuneUp.html http://www.thepccure.co.uk/TuneUp.aspx
 redirect 301 http://www.thepccure.co.uk/SearchEngineOptimisation.html http://www.thepccure.co.uk/SearchEngineOptimisation.aspx
+
+
+ErrorDocument 404 /notfound.aspx

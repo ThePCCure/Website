@@ -1,51 +1,58 @@
-﻿body{}
-
-#cart
-{
-    position: fixed;
-    width: 100px;
-    text-align: center;
-    right: 5px;
-    top: 5px;
+﻿.shopBorder {
+    position: relative;
 }
 
-.product
-{
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    display: inline-block;
+.product {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 600px;
+    position: relative;
 }
 
+    .product .title {
+        text-align: left;
+        width: 100%;
+        z-index: 1;
+        font-size: 30px;
+    }
 
-.productDiscription, .buyNow
-{
-    display: none;
+    .product .details {
+    }
+
+        .product .details .description {
+            width: 15%;
+        }
+
+            .product .details .description .price {
+                position: absolute;
+                bottom: 0;
+                color: red;
+                font-size: 75px;
+            }
+
+        .product .details .productimg {
+            width: 80%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+
+    .product .buyNow {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+#Cart {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    font-size: 25px;
 }
 
-.productTitle
-{
-    font-family: @Arial Unicode MS;
-    font-size: x-large;
-}
-
-.buyNow
-{
-    width: 120px;
-    margin: auto;
-}
-
-.productImg
-{
-    width: 100%;
-    height: 70%;
-}
-
-.productClicked
-{
-    border: 1px solid black;
-    display: block;
-    z-index: 100;
-    background-color: #FFF;
-    position: fixed;
-}
+    #Cart:hover, .product .buyNow {
+        cursor: pointer;
+    }
