@@ -18,11 +18,18 @@
     }
 
     .product .details {
+        
     }
 
         .product .details .description {
-            width: 15%;
+            width: 50%;
+            
         }
+
+            .product .details .description .spec {
+                overflow:visible;
+                
+            }
 
             .product .details .description .price {
                 position: absolute;
@@ -32,12 +39,14 @@
             }
 
         .product .details .productimg {
-            width: 80%;
+            width: 50%;
             position: absolute;
             right: 0;
             top: 0;
             z-index: -1;
         }
+
+
 
     .product .buyNow {
         position: absolute;

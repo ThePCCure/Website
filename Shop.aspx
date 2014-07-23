@@ -40,7 +40,6 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MasterContentPlaceHolder" runat="Server">
     <div class="shopBorder">
         <div id="Cart">
-            £0.00
         </div>
         <div id="products" class="owl-carousel owl-theme">
             <div class="product item">
@@ -48,12 +47,24 @@
                 <div class="Header title">NZXT Phantom 410</div>
                 <div class="details">
                     <div class="description">
-                        <div class="spec">ASJBDHOASDOISDH iahd oaihsd odh h h oahisd oaihsdoaihsd oiahsd oiashd oiahsdoiah asdoh hawenoaisdghoshoads lka shdo[idhsoih </div>
+                        <div class="spec">
+                            <ul>
+                                <li>Case: Cooler Master K280 Midi Tower Case Black </li>
+                                <li>PSU: 550W</li>
+                                <li>Motherboard: MBGIG-78LMT-USB3 </li>
+                                <li>CPU: PRAMD-FD6300WMHK  </li>
+                                <li>Memory: Team Elite 4GB with heat sink  </li>
+                                <li>Hard Drive: HDSEA-1000SATA64 </li>
+                                <li>Primary Optical Drive: DWSAM-SH-224DB</li>
+                                <li>Card Reader: CRDYN-USBALLINTB</li>
+                                <li>Controllers: NPTEN-W311P</li>
+                            </ul>
+                        </div>
                         <div class="price">
-                            £4895
+                            £350
                         </div>
                     </div>
-                    <img class= "productimg" alt="case" src="Images/Shop/phamtom410_04.jpg" />
+                    <img class="productimg" alt="case" src="Images/Shop/Cooler Master K280 Midi Tower Case Black.jpg" />
                 </div>
             </div>
 
@@ -67,7 +78,7 @@
                             £895
                         </div>
                     </div>
-                    <img class= "productimg" alt="case" src="Images/Shop/phamtom410_04.jpg" />
+                    <img class="productimg" alt="case" src="Images/Shop/phamtom410_04.jpg" />
                 </div>
             </div>
         </div>
